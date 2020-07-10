@@ -15,6 +15,29 @@ export default function Application(props) {
   });
   const setDay = day => setState({ ...state, day });
 
+
+ function bookInterview (id, interview) {
+    const appointment = {
+      ...state.appointments[id],
+      interview: { ...interview }
+    };
+
+    const appointments = {
+      ...state.appointments,
+      [id]: appointment
+    };
+
+    setState({...state, appointments})
+    axios.put(`/api/appointments/${id}`, { interview })
+      .catch(error => {
+        console.log(error.response.status);
+        console.log(error.response.headers);
+        console.log(error.response.data);
+      })
+   
+  }
+
+  
   useEffect(() => {
 
     Promise.all([
@@ -42,6 +65,7 @@ export default function Application(props) {
         time={appointment.time}
         interview={interview}
         interviewers={interviewers}
+        bookInterview={bookInterview}
       />
 
     )
