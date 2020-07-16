@@ -28,4 +28,4 @@ npm run storybook
 !["Scheduler Screenshot"](https://github.com/jessicaseo83/scheduler/blob/master/docs/scheduler.png?raw=true)
 !["Book An Interview"](https://github.com/jessicaseo83/scheduler/blob/master/docs/appointment-form.png?raw=true)
 !["Save the Interview"](https://github.com/jessicaseo83/scheduler/blob/master/docs/appointment-saving.png?raw=true)
-!["Display A Confirmation Message Before Deleting"(https://github.com/jessicaseo83/scheduler/blob/master/docs/appointment-delete.png?raw=true)
+!["Display A Confirmation Message Before Deleting"](https://github.com/jessicaseo83/scheduler/blob/master/docs/appointment-delete.png?raw=true)
