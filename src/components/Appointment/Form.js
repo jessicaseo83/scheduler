@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import InterviewerList from "components/InterviewerList"
+import InterviewerList from "components/InterviewerList";
 import Button from "components/Button";
 
 export default function Form(props) {
@@ -10,13 +10,13 @@ export default function Form(props) {
   const reset = () => {
     setName("");
     setInterviewer(null);
-  }
+  };
 
   const cancel = () => {
     reset();
     props.onCancel();
 
-  }
+  };
 
   function validate() {
     if (name === "") {
@@ -24,7 +24,7 @@ export default function Form(props) {
       return;
     }
     props.onSave(name, interviewer);
-  }
+  };
 
   return (
     <main className="appointment__card appointment__card--create">
@@ -50,5 +50,5 @@ export default function Form(props) {
         </section>
       </section>
     </main>
-  )
-}
+  );
+};

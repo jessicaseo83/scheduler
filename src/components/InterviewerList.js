@@ -25,7 +25,7 @@ export default function InterviewerList (props) {
     </section>
   
   );
-}
+};
 
 //Type Checking with Prop Types
 InterviewerList.propTypes = {

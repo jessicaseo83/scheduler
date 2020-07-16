@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 
 export default function Show (props) {
   return (
@@ -29,4 +29,4 @@ export default function Show (props) {
     </main>
   );
 
-}
+};

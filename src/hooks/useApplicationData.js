@@ -9,7 +9,7 @@ export default function useApplicationData() {
   });
   const setDay = day => setState({ ...state, day });
  
-
+  // find the remaining spots for the day
   const remainingSpots = (day, appointments) => {
      let appointmentArr = day.appointments;
      let available = 0;
