@@ -1,5 +1,7 @@
 # Interview Scheduler
 
+Inverview Scheduler is a React application that allows users to book and cancel interviews.
+
 ## Setup
 
 Install dependencies with `npm install`.
@@ -21,3 +23,5 @@ npm test
 ```sh
 npm run storybook
 ```
+
+## Screenshots
